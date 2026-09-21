@@ -2,6 +2,10 @@
 
 Capacitor Android OBD-II app for a 2012 Chevrolet Cruze 1.8 LPG.
 
-This GitHub repo is a **delivery mirror**. Origin is the source of truth.
+**Clone URL (this mirror):** https://github.com/erixpo/cruze-obd.git
 
-If `dist/cruze-obd-debug.apk` is not in this tree yet, clone from Cursor / Origin and copy the APK from `dist/cruze-obd-debug.apk` (5 062 830 bytes, blob `4a8695e9b24217879b99f3c0a5cd645da093e57b`).
+This public GitHub repo was created as a delivery mirror. Origin remains the source of truth. The cloud agent could create the repo under `erixpo` but could not `git push` the full tree (no GitHub git credentials on the VM — only the GitHub API). So this GitHub copy may be README-only until Erik or a follow-up push lands `main`.
+
+**Do not treat a README-only clone as the project.** Get the full tree from Cursor → clone the Origin project into `~/Desktop/PROJECTS/cruze-obd`.
+
+Must include: `src/`, `android/`, `package.json`, `capacitor.config.ts`, `dist/cruze-obd-debug.apk` (5 062 830 bytes).
